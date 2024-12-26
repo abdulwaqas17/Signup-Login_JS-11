@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Login</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="outer-box">
+
+        <div class="signUp-box">
+
+            <!-- header -->
+    
+            <header>
+                <div class="signup-header">
+                    <h1>Sign Up</h1>
+                    <p>It just takes 30 seconds</p>
+                </div>
+            </header>
+    
+            <!-- Sign body -->
+            
+            <main class="signup-body">
+    
+                <!-- form -->
+    
+                <form>
+    
+                    <div class="input">
+    
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="FirstName" placeholder="First Name" id="FirstName1" >
+    
+                    </div>
+    
+                    <div class="input">
+    
+                        <label for="LastName">Last Name</label>
+                        <input type="text" name="LastName" placeholder="Last Name" id="LastName1" >
+    
+                    </div>
+    
+                    <div class="input">
+    
+                        <label for="YourEmail">Your Email</label>
+                        <input type="email" name="YourEmail" placeholder="Email" id="Email1"required>
+    
+                    </div>
+
+    
+                    <div class="input">
+    
+                        <label for="YourPassword">Your Password</label>
+                        <input type="password" name="YourPassword" id="Password1" placeholder="at least 8 characters"required>
+    
+                    </div>
+    
+    
+                    <!-- <div class="input">
+    
+                        <input type="submit" name="submit" value="Create Account" onclick="takeInupts()">
+    
+                    </div> -->
+    
+                    <div class="input">
+    
+                        <button type="button" class="button" onclick="signUp()">Sign Up</button>
+    
+                    </div>
+    
+                 
+                    
+                </form>
+    
+            </main>
+    
+    
+    
+        </div>
+
+
+
+
+        <!-- ------- Login section ------  -->
+        <div class="Login-box">
+
+            <!-- header -->
+    
+            <header>
+                <div class="signup-header">
+                    <h1>Login</h1>
+                    <p>Enter your valid email and password</p>
+                </div>
+            </header>
+    
+            <!-- Sign body -->
+            
+            <main class="signup-body">
+    
+                <!-- form -->
+    
+                <form>
+    
+                    <div class="input">
+    
+                        <label for="YourEmail">Your Email</label>
+                        <input type="email" name="YourEmail" placeholder="Email" id="loginEmail1" required >
+    
+                    </div>
+    
+    
+                    <div class="input">
+    
+                        <label for="YourPassword">Your Password</label>
+                        <input type="password" name="YourPassword" id="loginPassword1" placeholder="at least 8 characters" required >
+    
+                    </div>
+    
+    
+                    <!-- <div class="input">
+    
+                        <input type="submit" name="submit" value="Create Account" onclick="takeInupts()">
+    
+                    </div> -->
+    
+                    <div class="input">
+    
+                        <button type="button" class="button" onclick="login()">Login</button>
+    
+                    </div>
+
+                    <div id="result">
+                        
+                    </div>
+    
+                 
+                    
+                </form>
+    
+            </main>
+    
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

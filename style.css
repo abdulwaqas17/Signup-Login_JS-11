@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family:"Lato", sans-serif;
+
+}
+
+/* Styling of Outer-box */
+
+.outer-box{
+
+
+
+    /* width: 100vw; */
+
+    /* height: 100vh; */
+
+    /* background: linear-gradient(to top left, rgb(129, 0, 0), rgb(248, 3, 3)); */
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/365/937/small_2x/beautiful-blurred-green-nature-background-ai-generated-photo.jpg);
+    background-size: cover;
+
+    /* min-width: 410px; */
+
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+
+    /* min-height: 555px; */
+}
+
+/* Styling of Inner-box */
+
+.signUp-box{
+
+
+    flex-basis: 30%;
+    padding: 30px 20px;
+
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    /* box-shadow: 3px 3px 5px  #e4e4e4; */
+
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.295) ,rgba(255, 255, 255, 0.205));
+
+
+    backdrop-filter: blur(10px);
+
+    z-index: 2;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #131010;
+}
+
+.signup-header p{
+
+    font-size: 0.9rem;
+
+    color: #181a18;
+
+    font-weight: 600;
+}
+
+/* Stylin of signup-body */
+
+.signup-body{
+
+    margin: 20px 0;
+
+}
+
+.signup-body .input{
+
+    margin: 10px 0;
+
+}
+
+.signup-body .input label{
+
+    display: block;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+}
+
+.signup-body>form>.input>input{
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 2px solid gray;
+
+    border-radius: 5px;
+
+    font-size: 1rem;
+
+    margin-top: 5px;
+
+}
+
+.button{
+
+    border: none;
+
+    background-color: #3caa21;
+
+    color: white;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-size: 1rem;
+
+    margin-top: 5px;
+
+}
+
+
+/* Hover State of Submit */
+
+.button:hover{
+
+    background-color: #41850a;
+    
+}
+
+
+.Login-box{
+
+
+    flex-basis: 30%;
+    padding: 30px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; 
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.295) ,rgba(255, 255, 255, 0.205));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+
+#result{
+
+    text-align: center;
+    /* color: red; */
+}
